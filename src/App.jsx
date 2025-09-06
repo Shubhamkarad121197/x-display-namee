@@ -26,6 +26,7 @@ const App = () => {
               type="text" 
               name="firstName" 
               onChange={(e) => setFirstName(e.target.value)} 
+              required
             />
           </div>
           <div className='inputGroup'>
@@ -34,6 +35,7 @@ const App = () => {
               type="text" 
               name="lastName" 
               onChange={(e) => setLastName(e.target.value)} 
+              required
             />
           </div>
           <div>
